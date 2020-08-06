@@ -213,8 +213,6 @@ fabric.properties
 # Application dist
 dist
 
-lefthook.yml
-
 # Storybook build
 storybook-static
 
