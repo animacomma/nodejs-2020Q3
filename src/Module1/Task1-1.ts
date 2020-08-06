@@ -23,7 +23,7 @@ const rl = readline.createInterface({
 });
 
 rl.on('line', function (line: string) {
-    const reversedLine = [...line.trim()].reverse().join('');
+    const reversedLine = [ ...line.trim() ].reverse().join('');
 
     console.log(reversedLine);
 }).on('close', () => {
