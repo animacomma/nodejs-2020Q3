@@ -20,9 +20,10 @@ console.log('\n ********** Please enter your string to reverse **********');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
+    terminal: false
 });
 
-rl.on('line', function (line: string) {
+rl.on('line', (line: string) => {
     const reversedLine = [ ...line.trim() ].reverse().join('');
 
     console.log(reversedLine);
