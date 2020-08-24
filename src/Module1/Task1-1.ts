@@ -20,7 +20,7 @@ console.log('\n ********** Please enter your string to reverse **********');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    terminal: false
+    terminal: false,
 });
 
 rl.on('line', (line: string) => {
