@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    tsc:
+      run: npm run compile
+    check:
+      run: npm run check
